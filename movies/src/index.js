@@ -7,7 +7,7 @@ import {Provider} from 'react-redux'
 import {BrowserRouter} from 'react-router-dom';
 import { store } from './store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL="https://moviebookingbackend.onrender.com/";
+axios.defaults.baseURL=https://moviebooking.onrender.com/";
 root.render(
   <React.StrictMode>
   <BrowserRouter>
